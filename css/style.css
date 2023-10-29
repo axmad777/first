@@ -1,0 +1,141 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto-Bold";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.news__content-list {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+}
+
+.news__content-link {
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.5s;
+}
+
+.news__content-link:hover {
+    color: #EF4423;
+}
+
+.header__content-img {
+    padding: 15px 0 0 36px;
+}
+
+.cards {
+    display: flex;
+ padding-bottom: 40px;
+}
+
+.card {
+    width: 25%;
+    align-items: center;
+    
+}
+
+.red {
+    background: #B71C1C;
+}
+
+.purple {
+    background: #6A1B9A;
+}
+
+.blue {
+    background: #303F9F;
+}
+
+.green {
+    background: #00695C;
+}
+.cards__card-img{
+    width: 100%;
+    align-items: center;
+}
+.cards__card-title{
+    font-size: 19px;
+    line-height: 22px;
+    color: white;
+    padding: 8px 0 10px 8px ;
+  
+}
+.cards__card-text{
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    font-family:"Roboto-Regular" ;
+    padding-left: 14px;
+}
+.main__title{
+    color: black;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+}
+.main__midle{
+    margin:  50px 0 ;
+    background-color: #EDEDED;
+}
+.main__midle-center{
+    display: flex;
+    justify-content: center;
+   
+}
+.main__box-title{
+    color: #3A3838;
+    font-size: 22px;
+    line-height: 25px;
+    padding: 20px 0 30px 30px;
+}
+.main__box-text{
+    font-family:"Roboto-Regular" ;
+    color: #686868;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 0 30px 30px;
+}
+.tens{
+    background-color: #3A3838;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 54px;
+}
+.nav__web{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+}
+.nav__link{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.5s;
+}
+.nav__link:hover{
+    color: #EF4423;
+}
